@@ -18,7 +18,7 @@ def main():
             writer.writerow([
                 oglas.get("ime", ""),
                 oglas.get("znamka", ""),
-                oglas.get("kolicina ", ""),
+                oglas.get("kolicina", ""),
                 oglas.get("cena", ""),
                 oglas.get("originalna_cena", ""),
                 oglas.get("popust", ""),
