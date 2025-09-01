@@ -13,7 +13,7 @@ for i in range(1, 34):
         juha = bs4.BeautifulSoup(response.text, "html.parser")
         if not os.path.exists("Raw_podatki"):
             os.makedirs("Raw_podatki")
-        with open("Raw_podatki/stran" + str(i) + ".html", "w", encoding="utf-8") as f:
+        with open("Raw_podatki/stran" + str(i) + ".html", "w", encoding="utf-8") as f: #html stran shranimo v mapo Raw_podatki
             f.write(str(juha))
     except Exception as e:
         print("Prislo je do napake pri branju strani " + str(i))
