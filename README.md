@@ -18,8 +18,7 @@ POGANJANJE KODE:
 1. PRENOS PROJEKTA Z GITHUBA:
    - Odpri terminal/command prompt
    - Pojdi v mapo kjer zelis shraniti projekt (npr. Desktop)
-   - Vnesi ukaz: git clone [URL tvojega GitHub repozitorija]
-   - Primer: git clone https://github.com/tvoje-ime/SeminarskaNaloga.git
+   - Vnesi ukaz: git clone https://github.com/linacizman/seminarska_naloga_UVP
    - Projekt se bo prenesel v novo mapo
 
 2. NAMESTITEV VIRTUALNEGA OKOLJA:
